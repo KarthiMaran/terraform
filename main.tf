@@ -9,7 +9,7 @@ terraform {
 
 provider "docker" {}
 
-# Pull the Nginx image
+# Pull the Nginx mage
 resource "docker_image" "nginx" {
   name         = "nginx:latest"
   keep_locally = false
